@@ -1,6 +1,6 @@
 # DCGLive: A Dynamic Collaboration-Aware Graph Learning Approach for Live Streaming Recommendation
 
-This repository contains the implementation for the paper: "Room Matters: Dynamic Room-level Collaboration Information Modeling for Live Streaming Recommendation."
+This repository contains the implementation for the WWW`2026 paper: "Room Matters: Dynamic Room-level Collaboration Information Modeling for Live Streaming Recommendation."
 
 ## How to Run the Code
 
