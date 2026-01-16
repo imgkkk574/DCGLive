@@ -579,10 +579,11 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-def select_free_gpu(seed = 1754066736):
+def select_free_gpu(seed = 1758786186):
     current_time = int(time.time())
     # seed = current_time
-    seed = 1758720383
+    # seed = 1758784041
+    seed = 1759108702
     set_seed(seed)
     gpu_stats = gpustat.GPUStatCollection.new_query()
     gpus = gpu_stats.gpus  
