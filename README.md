@@ -9,7 +9,7 @@ This repository contains the implementation for the WWW`2026 paper: "Room Matter
 1. Create a directory to save the models:
     ``` mkdir saved_models ```
 2. Train the DCGLive model:
-    ``` python DCGLive.py --network kuailive --model DCGLive --epochs 50 --method attention --embedding_dim 128 --alpha_LiveCI 0.9 ```
+    ``` python DCGLive.py --network kuailive --model DCGLive --epochs 50 --method attention --embedding_dim 128 --alpha_LiveCI 0.9 --lr_UR 1e-3 ```
 
 ### Evaluate DCGLive
 
